@@ -1,7 +1,8 @@
 ---
-title: ""
-date: 2022-09-06T20:38:04-04:00
-draft: true
----
+title: "Chris Ward"
 
-Hello, and welcome to my personal website. I'll probably want to set this to a left justify at some point since this doesn't work for longer amounts of text
+description: ""
+theme_version: '2.8.2'
+
+---
+Welcome to my website with information on me and some of the projects I've been working on.
