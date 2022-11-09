@@ -21,7 +21,7 @@ steps:
   image: plugins/hugo
   settings:
     hugo_version: 0.105.0
-    validate: true
+    validate: false
     url: https://chris.topherward.com
     buildDrafts: false
     buildExpired: false
