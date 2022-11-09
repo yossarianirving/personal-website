@@ -1,10 +1,10 @@
 ---
 kind: pipeline
 type: docker
-name: build and deploy the richardschutte.nl website
+name: build and deploy personal website
 trigger:
   branch:
-    - master
+    - main
   event:
     exclude:
       - pull_request
