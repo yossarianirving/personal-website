@@ -1,0 +1,42 @@
+---
+kind: pipeline
+type: docker
+name: build and deploy the richardschutte.nl website
+trigger:
+  branch:
+    - master
+  event:
+    exclude:
+      - pull_request
+clone:
+  disable: true    
+
+steps:
+
+- name: clone
+  image: plugins/git
+  recursive: true
+
+- name: build
+  image: plugins/hugo
+  settings:
+    hugo_version: 0.105.0
+    validate: true
+    url: https://chris.topherward.com
+    buildDrafts: false
+    buildExpired: false
+    buildFuture: false
+
+- name: deploy
+  image: appleboy/drone-scp
+  settings:
+    host: 192.168.99.12
+    target: /var/www/html/chris
+    source: public/*
+    rm: false # remove target folder before copy files
+    strip_components: 1
+    username:
+      from_secret: root
+    password:
+      from_secret: ssh_password
+    port: 22
