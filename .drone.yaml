@@ -35,8 +35,7 @@ steps:
     source: public/*
     rm: false # remove target folder before copy files
     strip_components: 1
-    username:
-      from_secret: root
+    username: root
     password:
       from_secret: ssh_password
     port: 22
