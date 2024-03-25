@@ -2,6 +2,8 @@
 title: "March Updates"
 date: 2024-03-22T17:11:23-04:00
 draft: false
+images:
+- /images/3DSynth.Webp
 ---
 
 Now that I am searching for jobs, now is an excellent time to update you on the personal projects I have worked on for the past few months. These posts will provide insight into my thought processes and odd collection of skills and interests.
