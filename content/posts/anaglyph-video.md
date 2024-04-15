@@ -4,7 +4,7 @@ date: 2024-04-11T14:02:10-04:00
 draft: false
 ---
 
-Before writing up the first two parts, I wanted to post a few samples since I've already created a proof-of-concept anaglyph generator for part 3 of my 3-D series. Like most anaglyph generators, my program combines a left and right image into a 3-D anaglyph. Unlike other anaglyph generators, my program can take a video from a 360 photo booth (or any other arc shot) and turn that into a 3-D video. So far, this only works when the camera moves in the same direction throughout the video. 
+Before writing up the first two parts, I wanted to post a few samples since I've already created a proof-of-concept anaglyph generator for part 3 of my 3-D series. Like most anaglyph generators, my program combines a left and right image into a 3-D anaglyph. Unlike other anaglyph generators, my program can take a video from a 360 photo booth (or any other arc shot) and turn that into a 3-D video. So far, this only works when the camera moves in the same direction throughout the video. [The code I wrote for this experiment is on my GitHub profile](https://github.com/yossarianirving/anaglyph-rs).
 
 When the weather improves, I may add better images.
 
