@@ -8,6 +8,8 @@ Before writing up the first two parts, I wanted to post a few samples since I've
 
 When the weather improves, I may add better images.
 
+{{< figure src="/images/companaglyph-equiv-march-update.webp" caption="Recreation of eurorack picture from march update using computed anaglyph" alt="red/cyan anaglyph of an eurorack synthesizer">}}
+
 {{< figure src="/images/3DHomeOffice.jpeg" caption="My home office as a red/cyan anaglyph" alt="Red/cyan anaglyph of a home office">}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gjebM_KG9Pg?loop=1&playlist=gjebM_KG9Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
