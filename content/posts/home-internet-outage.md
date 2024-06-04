@@ -1,0 +1,17 @@
+---
+title: "96 Hours"
+date: 2024-06-04T17:33:03-04:00
+draft: false
+---
+
+I don't usually associate my home networking setup with the words "simple," "flexible," or "easy." However, that changed when I lost internet access for an extended period. Last Thursday, I came home from a round of golf to find my internet access gone. I had assumed this was due to a mistake with my ISP's scheduled maintenance that they were performing that day. As a software engineer, I understand how simple maintenance tasks can turn into unexpected outages; I decided to get some sleep and deal with it the next day.
+
+Preparing for the inevitable "Have you unplugged your X and plugged it back in?" exchange, I spent an hour or two troubleshooting, packet capturing, and rebooting. After nothing worked, I finally called my ISP. Instead of an arduous exchange, they told me the power company accidentally cut a fiber line, causing an outage at three houses. Even worse, they could only get a worker to fix it on Tuesday. Besides the obvious problems associated with not having internet access, I also had job interviews. Clearly, I had to find a solution.
+
+Luckily, my sister and her family live across the street, so I could connect to their WiFi if I stood at my front windows. The connection was reliable enough with my phone or laptop but slow. This was partly because mobile devices have wireless antennas with a gain of around 2 or 3 dB (lower gain usually means more omnidirectional). From here, I planned to tether my desktop to the WiFi from my phone and then share that connection through the desktop's ethernet port to the patch panel and finally to the router. Surprisingly, this worked (almost) flawlessly, and my entire network could reaccess the internet. Now that I had DSL speeds (8Mbps down and 4Mbps up), I could browse the internet, access Home Assistant from outside the home, and reliably stream 720p video. Unfortunately, the connection required a bit of babysitting, and I couldn't boot into Windows while using this method (Windows can share a connection via ethernet as well, but I don't trust it to be reliable).
+
+Speeds improved significantly when I brought the WiFi antenna that came with my desktop's motherboard from my parent's house and used the built-in WiFi instead of a mobile phone. From what I could tell, that antenna has a gain of roughly 8 dB, contributing to the improved speeds. However, comparing a motherboard's built-in WiFi to a mobile device's can never be an apples-to-apples comparison, even with identical antennas. Even though the speeds were well into the usable range (25Mbps down and 20 Mbps up), it still wasn't quite as reliable as I would like.
+
+The next improvement came on Monday when I received a travel router that could connect to my sister's WiFi network and share the connection over ethernet. Setting the router up was much easier than my previous solutions, and its speeds were quite a bit better (40 Mbps down and 38 Mbps up). Additionally, I didn't have to keep my power-hungry desktop on.
+
+Finally, as I'm about to publish this post, my ISP fixed their fiber, and I'm back on the connection I'm paying too much for. Due to my home ethernet wiring and patch panel and the experience I gained putting it together, I had the flexibility and equipment to solve a rather frustrating problem in a straightforward and reliable way. 
