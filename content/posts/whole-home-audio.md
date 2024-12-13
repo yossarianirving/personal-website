@@ -60,4 +60,4 @@ A month or two after setting up the three systems I just described, I purchased 
 
 ## Final Thoughts
 
-Overall, I'm mostly satisfied with the whole-home audio setup I've created for myself. Including the post-project additions, I have every room in the house covered except the dining room, bathroom, and downstairs using things what I had lying around plus $160. The audio from multiple devices is synchronized so well that the differences are close to imperceptible (I plan on testing these timing differences). Finally, I want to set up an OwnTone server which should allow me to stream multiroom audio over AirPlay from a dedicated device.
+Overall, I'm mostly satisfied with the whole-home audio setup I've created for myself. Including the post-project additions, I have every room in the house covered except the dining room, bathroom, and downstairs using things I had lying around plus $160. The audio from multiple devices is synchronized so well that the differences are close to imperceptible (I plan on testing these timing differences). Finally, I want to set up an OwnTone server that will allow me to stream multiroom audio over AirPlay from a dedicated device.
